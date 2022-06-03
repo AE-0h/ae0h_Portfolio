@@ -1,16 +1,11 @@
-# Basic Sample Hardhat Project
+A Decentralized Portfolio
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+In this stack I leverage a deployed Solidity smart contracts ABI to deploy a simple portfolio website that uses the onlyOwner modifier as a permission to add to the site.  If the actor's address does not match the original owner of the contract the portfolio is strictly view olny. All content is stored via IPFS and queryed via a subgraph deployed on the graph network using graphql.
 
-Try running some of the following tasks:
+This Project was built using Hardhat and Next.js
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Try running "npm run dev" in terminal for a dev enviroment || "npm run build && npm start " for a production build and deployment.
+
+
+
 
