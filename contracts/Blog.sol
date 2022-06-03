@@ -88,8 +88,6 @@ contract Blog {
         return posts;
     }
 
-    /* this modifier means only the contract owner can */
-    /* invoke the function */
     modifier onlyOwner() {
       require(msg.sender == owner);
     _;

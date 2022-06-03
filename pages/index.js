@@ -36,7 +36,7 @@ export default function Home(props) {
                   <p className={postTitle}>{post[1]}</p>
                   <div className={arrowContainer}>
                   <img
-                      src='/right-arrow.svg'
+                      src='/kml_Document.svg'
                       alt='Right arrow'
                       className={smallArrow}
                     />
@@ -119,6 +119,8 @@ const postList = css`
 const container = css`
   display: flex;
   justify-content: center;
+  background-color: #44355b;
+  background-image: linear-gradient(315deg, #44355b 0%, #ececec 74%);
 `
 
 const buttonStyle = css`

@@ -111,6 +111,8 @@ const editPost = css`
 
 const coverImageStyle = css`
   width: 900px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 `
 
 const container = css`
@@ -121,8 +123,8 @@ const container = css`
 const contentContainer = css`
   margin-top: 60px;
   padding: 0px 40px;
-  border-left: 1px solid #e7e7e7;
-  border-right: 1px solid #e7e7e7;
+  border-left: 1px solid floralwhite;
+  border-right: 1px solid floralwhite;
   & img {
     max-width: 900px;
   }

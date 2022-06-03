@@ -3920,6 +3920,11 @@
   "resolved" "https://registry.npmjs.org/emoji-regex/-/emoji-regex-9.2.2.tgz"
   "version" "9.2.2"
 
+"empty-dir@^0.1.0":
+  "integrity" "sha512-EatTcJH5cVS/NXEpy7IWBSpH0WxvJdBnmRkz8Gqr2Jn4GmSqc4Q4E81SmVGOrHHHtCys1SsFKmAoHlhaFkRlmg=="
+  "resolved" "https://registry.npmjs.org/empty-dir/-/empty-dir-0.1.0.tgz"
+  "version" "0.1.0"
+
 "encodeurl@~1.0.2":
   "version" "1.0.2"
 
@@ -8239,6 +8244,13 @@
     "nanoid" "^3.1.30"
     "picocolors" "^1.0.0"
     "source-map-js" "^1.0.1"
+
+"postgresql@^0.0.1":
+  "integrity" "sha1-8HwXnZN+DFTuc1oV6y5GKxlnq3A="
+  "resolved" "https://registry.npmjs.org/postgresql/-/postgresql-0.0.1.tgz"
+  "version" "0.0.1"
+  dependencies:
+    "empty-dir" "^0.1.0"
 
 "postinstall-postinstall@^2.1.0":
   "integrity" "sha512-7hQX6ZlZXIoRiWNrbMQaLzUUfH+sSx39u8EJ9HYuDc1kLo9IXKWjM5RSquZN1ad5GnH8CGFM78fsAAQi3OKEEQ=="

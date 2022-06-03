@@ -48,9 +48,9 @@ function MyApp({ Component, pageProps }) {
           <Link href="/">
             <a>
               <img
-                src='/logo.svg'
+                src='/byz_sol.jpeg'
                 alt="React Logo"
-                style={{ width: '50px' }}
+                style={{ width: '100px' }}
               />
             </a>
           </Link>
@@ -111,15 +111,25 @@ const accountInfo = css`
 
 const container = css`
   padding: 40px;
+  background-color: #f1dfd1;
+  background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.5)
+  
 `
 
 const linkContainer = css`
   padding: 30px 60px;
-  background-color: #fafafa;
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
 `
 
 const nav = css`
-  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.5)
+  background-color: #f1dfd1;
+  background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+  
+
 `
 
 const header = css`
@@ -130,7 +140,7 @@ const header = css`
 
 const description = css`
   margin: 0;
-  color: #999999;
+  color: ebony;
 `
 
 const titleContainer = css`
